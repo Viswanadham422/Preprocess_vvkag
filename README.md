@@ -14,7 +14,7 @@ pip install textblob
 
 Install
 
-`pip install git+https://github.com/laxmimerit/preprocess_vvkag.git --upgrade --force-reinstall`
+`pip install git+https://github.com/Viswanadham422/Preprocess_vvkag.git --upgrade --force-reinstall`
 
 Uninstall
 
@@ -41,7 +41,7 @@ Use this if you want to use one by one
 ```
 import pandas as pd
 import numpy as np
-import preprocess_vvkag as vl
+import preprocess_vvkag as vk
 
 df = pd.read_csv('imdb_reviews.txt', sep = '\t', header = None)
 df.columns = ['reviews', 'sentiment']
