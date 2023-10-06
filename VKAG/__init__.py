@@ -1,4 +1,4 @@
-from VKAG import utils
+from preprocess_vvkag import utils
 
 __version__ = '0.10.3'
 
